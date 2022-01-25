@@ -24,7 +24,6 @@ const ListComponent = ({ children }) => {
     return (
         <>
             {numChild.map((child, index) => {
-                console.log(child);
                 return (
                     <div className="list-group-numbers" key={index}>
                         {`${index + 1}. `}
